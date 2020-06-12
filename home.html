@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <title>Covidmity</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        h1.main, h2.main{
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        #news{
+            background-color: #8497B0;
+            padding: 1% 0;
+        }
+
+        #news h2{
+            color: white;
+        }
+        
+        .article{
+        background-color: white;
+        width: 19%;
+        margin: 0% 3%;
+        float: left;
+        border-radius: 5em;
+        }
+
+        .row{
+         
+        }
+
+        #newsrow{
+            width: 100%;
+            overflow: hidden;
+        }
+
+        #supply{
+            clear: both;
+        }
+
+        /*progress[value]::-webkit-progress-bar{
+            background-color:black;
+            border-radius: 2px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+        }*/
+
+        /*progress[value]::-webkit-progress-value {
+            background-image:
+            -webkit-linear-gradient(-45deg, 
+                                    transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                                    rgba(0,0, 0, .1) 66%, transparent 66%),
+            -webkit-linear-gradient(top, 
+                                    rgba(255, 255, 255, .25), 
+                                    rgba(0, 0, 0, .25)),
+            -webkit-linear-gradient(left, #09c, #f44);
+
+            border-radius: 2px; 
+            background-size: 35px 20px, 100% 100%, 100% 100%;
+        }*/
+
+        progress{
+            display: inline-block;
+            text-align: center;
+        }
+
+        progress[value] {
+            width: 90%;
+            height: 10em;  
+        }
+
+        progress[value]::-webkit-progress-bar {
+            background-color: blue;
+            border-radius: 2px;
+        }
+    </style>
+
+    <script>
+        
+    </script>
+</head>
+
+<body>
+    <header>
+        <p>
+            <span class="covidmity">COVIDMITY</span>
+            <span class="nav">
+                <a href="home.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="stat.html">Statistics</a>
+                <a href="profile.html">Profile</a>
+            </span>
+            
+        </p>
+    </header>
+    
+    <h1 class="main">Hello Person!</h1>
+
+    <div id="progress">
+        <h2 class="main">Daily Progress</h2>
+            <progress max="100" value="80"></progress>
+    </div>
+    
+    <div id="news">
+        <h2 class="main">News</h2>
+
+        <div id="newsrow">
+            <div class="article" class="row">
+                <img src="">
+                <p>a</p>
+                </div>
+    
+                <div class="article" class="row">
+                
+                <p>b</p>
+                </div>
+    
+                <div class="article" class="row">
+                
+                <p>c</p>
+                </div>
+    
+                <div class="article" class="row">
+                
+                <p>d</p>
+                </div>
+        </div>
+    </div>
+    
+    <div id="supply">
+        <h2 class="main">Your Current Supply</h2>
+    </div>
+    
+</body>
+
+</html>
