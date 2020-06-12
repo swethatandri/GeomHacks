@@ -90,3 +90,12 @@ h2{
 .link{
     margin: 10%;
 }
+
+.article{
+    background-color: #D6DCE5;
+    width: 19%;
+    margin: 0% 3%;
+    float: left;
+    border-radius: 1em;
+    text-align: center;
+    }
