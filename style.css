@@ -1,0 +1,64 @@
+body, header p{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+h1.main, h2.main{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+header{
+    width: 100%;
+    background-color: #222A35;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.covidmity{
+    text-transform: lowercase;
+    color: white;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-size: 40px;
+    /* background-color: yellow; */
+    margin-left: 3%;
+}
+
+.nav{
+    /* background-color: beige; */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 0.75%;
+    margin-right: 3%;
+    width: 40%;
+}
+
+.nav a{
+    /* background-color: red; */
+    margin-left: 10%;
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    margin: 0% 3% 0% 3%;
+    color: #222A35;
+}
+
+h1{
+    letter-spacing: 2px;
+}
+
+h2{
+    letter-spacing: 2px;
+    font-size: 170%;
+}
+
+
+
+
+     
