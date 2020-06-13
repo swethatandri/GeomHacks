@@ -84,11 +84,13 @@
     
     <h1 class="main">Hello Person!</h1>
 
+    
+
     <div id="progress">
         <h2 class="main">Daily Progress</h2>
             <progress max="100" value="80"></progress>
     </div>
-    
+   <p id = "demo"> <a href = "randomchild.html" id = "selector">  </a> </p>
     <div id="news">
         <h2 class="main">News</h2>
 
@@ -124,5 +126,32 @@
     </div>
     
 </body>
+
+<script>
+
+    var phrases = ["Helping Your Kids with Online Classes", "Self Care", "Easing Your Child's Anxiety about Covid-19", "Dealing with Teenagers' Concerns"];
+        
+
+        var i = Math.floor((Math.random() * 4));
+        var printout = phrases[i];
+        document.getElementById("selector").innerHTML = printout;
+        window.printoutlist = []
+        printoutlist[0] = printout;
+
+        localStorage.setItem("printoutofficial", printoutlist[0]);
+        alert("hi");
+        
+    
+        
+
+    
+
+   
+
+    
+
+
+    
+</script>
 
 </html>
