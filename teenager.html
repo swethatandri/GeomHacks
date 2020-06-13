@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>Random Covid Tips</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<video autoplay muted loop id="myVideo">
+    
+    <source src="abstract_line3.mp4" type="video/mp4">
+
+</video>
+
+<body>
+    <header>
+        <p>
+            <span class="covidmity">COVIDMITY</span>
+            <span class="nav">
+                <a href="home.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="stat.html">Statistics</a>
+                <a href="profile.html">Profile</a>
+            </span>
+            
+        </p>
+    </header>
+
+ 
+     <h1 id = "header"> Dealing With Teenagers' Concerns </h1>
+
+     <button id = "button" onclick= "randomize()">  Click Here for Another Tip </button>
+
+
+     <p id = "randomp"> </p>
+
+     <img src = "#" id= "randomimg" > 
+     
+
+
+
+
+    <script> 
+
+    var tip1 = "Explain why social distancing is important. Teenagers tend to feel invincible at the best of times. During this pandemic, they know that the virus may not pose as much of a risk to them as it does to older people. But that doesn’t mean that they can’t spread the disease and cause extreme suffering to others. Explain that even though they feel fine, they could still be asymptomatic carriers and pass the virus on to those most at risk, including their own grandparents or other family members with underlying health conditions.";
+    var tip2= "Empathize with their frustrations. As well as all the other frustrations of lockdown, older kids may also be missing important school events such as exams, dances, and graduations. Validate their feelings and listen without trying to convince them that they’ll be fine or reminding them that others have it worse. Sharing your own disappointments and frustrations will put you on the same team. Encourage your kids to be creative with how they interact with their friends. If you have any limitations regarding social media and phone use, consider relaxing them during this time.";
+    var tip3 = "Let them set their own schedule. While a sense of structure is still necessary for teenagers, treating them like a little kid will only fuel rebellion. Give them choices whenever possible and let them know you’re available to help keep them on track and plan breaks if they need it. Giving your teenagers autonomy also means holding them responsible for certain chores, such as helping with cooking and cleaning.";
+   
+
+
+    var img1 = "distance.png";
+    var img2 = "anger.png";
+    var img3 = "schedule.png";
+   
+
+    var imglist = [img1, img2, img3];
+
+
+    var randomlist = [tip1, tip2, tip3];
+    
+
+    var j = Math.floor((Math.random() * 3));
+    var random1 = randomlist[j];
+    var randomimg = imglist[j];
+    document.getElementById("randomp").innerHTML = random1;
+
+  
+
+     document.getElementById("randomimg").src = randomimg;
+
+
+
+    function randomize()
+    {
+         j = Math.floor((Math.random() * 3));
+         random1 = randomlist[j];
+         randomimg = imglist[j];
+        document.getElementById("randomp").innerHTML = random1;
+        document.getElementById("randomimg").src = randomimg;
+
+
+
+    }
+
+
+    </script>
+
+
+</body>
