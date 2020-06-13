@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>Random Covid Tips</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<video autoplay muted loop id="myVideo">
+    
+    <source src="abstract_line3.mp4" type="video/mp4">
+
+</video>
+
+<body>
+    <header>
+        <p>
+            <span class="covidmity">COVIDMITY</span>
+            <span class="nav">
+                <a href="home.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="stat.html">Statistics</a>
+                <a href="profile.html">Profile</a>
+            </span>
+            
+        </p>
+    </header>
+
+ 
+     <h1 id = "header"> Talking About Covid-19 To A Young Child </h1>
+
+     <button id = "button" onclick= "randomize()">  Click Here for Another Tip </button>
+
+
+     <p id = "randomp"> </p>
+
+     <img src = "#" id= "randomimg" > 
+     
+
+
+
+
+    <script> 
+
+    var tip1 = "Talk at an age-appropriate level. If your child is young, don’t volunteer too much information, as this could cause their imagination to run wild. Instead, try to answer any questions they might have. It’s okay not to know everything; if your child is older, help them find accurate information from the Centers for Disease Control and Prevention (CDC) or World Health Organization (WHO).";
+    var tip2= "Focus on what you can control. Talking to your kids about the safety precautions you’re taking can empower them. Remind them to wash their hands for 20 seconds (the time it takes to sing “Happy Birthday” twice) when they come in from outside, before they eat, after blowing their nose, coughing, sneezing, or going to the bathroom. Explain how reducing close contact with other people keeps the virus from spreading, therefore it’s important to stay at home as much as possible.";
+    var tip3 = "Offer reassurance and honesty. If your kids are afraid they’ll get the virus, reassure them that children don’t seem to get as sick as adults. Watch the news with older kids so you can explain what they’re hearing and put things into context.";
+    var tip4 = "Keep lines of communication open. To keep fear from building up, let your kids know that you’ll keep them updated as you learn more information. You can also use this as a teaching opportunity, explaining how their immune system fights disease.";
+   
+
+
+    var img1 = "child.png";
+    var img2 = "control.png";
+    var img3 = "truth.png";
+    var img4 = "contact.png";
+   
+
+    var imglist = [img1, img2, img3, img4];
+
+
+    var randomlist = [tip1, tip2, tip3, tip4];
+    
+
+    var j = Math.floor((Math.random() * 3));
+    var random1 = randomlist[j];
+    var randomimg = imglist[j];
+    document.getElementById("randomp").innerHTML = random1;
+
+  
+
+     document.getElementById("randomimg").src = randomimg;
+
+
+
+    function randomize()
+    {
+         j = Math.floor((Math.random() * 3));
+         random1 = randomlist[j];
+         randomimg = imglist[j];
+        document.getElementById("randomp").innerHTML = random1;
+        document.getElementById("randomimg").src = randomimg;
+
+
+
+    }
+
+
+    </script>
+
+
+</body>

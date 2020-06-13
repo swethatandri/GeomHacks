@@ -68,58 +68,39 @@
     </script>
 </head>
 
+<video autoplay muted loop id="myVideo">
+    
+    <source src="ol.mp4" type="video/mp4">
+
+</video>
+
+
 <body>
     <header>
         <p>
             <span class="covidmity">COVIDMITY</span>
+            <span class = "logo" > <img src = "covidmity1.png" width = 25% ></span>
             <span class="nav">
                 <a href="home.html">Home</a>
-                <a href="news.html">News</a>
-                <a href="stat.html">Statistics</a>
                 <a href="profile.html">Profile</a>
             </span>
             
         </p>
     </header>
+
+
+    <h1 id = "mainparagraph"> Here at Covidmity, we believe that a culmination of tips, tools, and resources are key to making it past this pandemic. At Covidmity, we build <i> community. </i></h1> 
+
+    
     
     <h1 class="main">Hello Person!</h1>
 
     
+   <p id = "demo"> <a href = "virtual.html" id = "selector"> Helping Your Kids with Online Classes  </a> </p>
+   <p id = "demo"> <a href = "teenager.html" id = "selector">  Dealing with Teenagers' Concerns </a> </p>
+   <p id = "demo"> <a href = "children.html" id = "selector"> Easing Your Child's Anxiety about Covid-19 </a> </p>
+   <p id = "demo"> <a href = "randomchild.html" id = "selector">  Self Care Tips </a> </p>
 
-    <div id="progress">
-        <h2 class="main">Daily Progress</h2>
-            <progress max="100" value="80"></progress>
-    </div>
-   <p id = "demo"> <a href = "randomchild.html" id = "selector">  </a> </p>
-    <div id="news">
-        <h2 class="main">News</h2>
-
-        <div id="newsrow">
-            <div class="article" class="row">
-                <img src="covid.jpg" class="imgnews">
-                <p>Coronavirus: What's happening around the world June 10</p>
-                <div class="link"><a href="https://www.cbc.ca/news/world/coronavirus-world-wednesday-1.5605765">Read Article</a> </div>
-            </div>
-
-            <div class="article" class="row">
-                <img src="covid.jpg" class="imgnews">
-                <p>Coronavirus: What's happening around the world June 10</p>
-                <div class="link"><a href="https://www.cbc.ca/news/world/coronavirus-world-wednesday-1.5605765">Read Article</a> </div>
-            </div>
-
-            <div class="article" class="row">
-                <img src="covid.jpg" class="imgnews">
-                <p>Coronavirus: What's happening around the world June 10</p>
-                <div class="link"><a href="https://www.cbc.ca/news/world/coronavirus-world-wednesday-1.5605765">Read Article</a> </div>
-            </div>
-
-            <div class="article" class="row">
-                <img src="covid.jpg" class="imgnews">
-                <p>Coronavirus: What's happening around the world June 10</p>
-                <div class="link"><a href="https://www.cbc.ca/news/world/coronavirus-world-wednesday-1.5605765">Read Article</a> </div>
-            </div>
-        </div>
-    </div>
     
     <div id="supply">
         <h2 class="main">Your Current Supply</h2>
@@ -127,31 +108,6 @@
     
 </body>
 
-<script>
 
-    var phrases = ["Helping Your Kids with Online Classes", "Self Care", "Easing Your Child's Anxiety about Covid-19", "Dealing with Teenagers' Concerns"];
-        
-
-        var i = Math.floor((Math.random() * 4));
-        var printout = phrases[i];
-        document.getElementById("selector").innerHTML = printout;
-        window.printoutlist = []
-        printoutlist[0] = printout;
-
-        localStorage.setItem("printoutofficial", printoutlist[0]);
-        alert("hi");
-        
-    
-        
-
-    
-
-   
-
-    
-
-
-    
-</script>
 
 </html>
