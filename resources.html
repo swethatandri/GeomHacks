@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>Food Resources </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<video autoplay muted loop id="myVideo">
+    
+    <source src="abstract_line3.mp4" type="video/mp4">
+
+</video>
+
+<body>
+    <header>
+        <p>
+            <span class="covidmity">COVIDMITY</span>
+            <span class="nav">
+                <a href="home.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="stat.html">Food Resources Guide</a>
+                <a href="profile.html">Profile</a>
+            </span>
+            
+        </p>
+    </header>
+
+    <h1 id="header">Covid Resources Guide </h1>
+
+
+
+
+    <div id = "resources">
+
+
+     <p id = "familyp">  How many members are in your family? </p>  
+
+     <p class = "item"> Amount </p>
+
+     <p class = "item"> Item </p>
+
+     <div class = "clear"> </div>
+
+     <p id = "milk"> Amount </p>
+
+     <p class = "item"> Milk </p>
+
+     <div class = "clear"> </div>
+   
+
+     <p id = "mask"> Amount </p>
+
+     <p class = "item"> Masks </p>
+
+
+     <div class = "clear"> </div>
+
+
+     <p id = "soap"> Amount </p>
+
+     <p class = "item"> Liquid Soap</p>
+
+    </div>
+
+
+
+
+ 
+
+    <br>
+
+
+
+    
+   
+
+    <input type="text" id="textbox" name="fname"> <br> <br>
+
+    <button onclick = "data()" id = "button2" type = "submit"> Submit here </button>
+
+
+
+
+    <script>
+
+
+
+        function data(){
+
+
+            var x = Number(document.getElementById("textbox").value);
+
+            document.getElementById("milk").innerHTML = Number(x);
+            document.getElementById("mask").innerHTML = Number(x) * 2;
+            document.getElementById("soap").innerHTML = Number(x)/4;
+            
+
+
+
+        }
+ 
+
+    
+
+
+
+    </script>
+
+</body>
+
+</html>

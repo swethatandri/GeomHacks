@@ -211,6 +211,20 @@ h2{
 
 }
 
+#button2{
+
+    position: absolute;
+
+    background-color: #222A35;
+    margin-top:  -14%;
+    margin-left: 37%;
+    color: white;
+    border-radius: 15%;
+    padding: 2%;
+    border: 3px white double;
+
+}
+
 
 #header{
 
@@ -257,6 +271,124 @@ h2{
      
   }
 
+
+  #familyp{
+
+    position: absolute;
+
+    font-size: 150%;
+    margin-top: 6%;
+    color: white;
+    padding-left: 3%;
+    margin-right: 7%;
+
+
+  }
+
+  #textbox{
+
+    position: absolute;
+    width: 2%;
+    margin-left: 32%;
+    margin-top: -10%;
+  }
+
+
+  #test{
+
+    position: absolute;
+    color: black;
+    background-color: white;
+    margin-left: 70%;
+  }
+
+  .item{
+
+    position: relative;
+    float: right;
+    margin-right: 6%;
+    margin-left: 0;
+
+    background-color: white;
+    border: 3px black solid;
+
+    color: black;
+    width: 5%;
+    font-size: 100%;
+    padding: 2%;
+
+
+
+  }
+
+  #milk{
+
+        position: relative;
+        float: right;
+        margin-right: 6%;
+        margin-left: 0;
+    
+        background-color: white;
+        border: 3px black solid;
+    
+        color: black;
+        width: 5%;
+        font-size: 100%;
+        padding: 2%;
+    
+    
+    
+  }
+
+  #mask{
+
+    position: relative;
+    float: right;
+    margin-right: 6%;
+    margin-left: 0;
+
+    background-color: white;
+    border: 3px black solid;
+
+    color: black;
+    width: 5%;
+    font-size: 100%;
+    padding: 2%;
+
+
+
+}
+
+#soap{
+
+    position: relative;
+    float: right;
+    margin-right: 6%;
+    margin-left: 0;
+
+    background-color: white;
+    border: 3px black solid;
+
+    color: black;
+    width: 5%;
+    font-size: 100%;
+    padding: 2%;
+
+
+
+}
+
+  .clear{
+
+    clear: both;
+  }
+
+  #resources{
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+
   footer{
       position: fixed;
       color: white;
@@ -265,4 +397,5 @@ h2{
       text-align: center;
       width: 100%;
       letter-spacing: 5px;
+
   }
