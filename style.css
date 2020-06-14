@@ -166,7 +166,7 @@ h2{
 
     position: relative;
     color: white;
-    background-color: rgba(211, 211, 211, .4);
+    background-color: rgba(211, 211, 211, .3);
     font-size: 250%;
 
     margin-left: 35% ;
@@ -275,11 +275,30 @@ a{
     position: relative;
     color: white;
     font-size: 200%;
-    margin-top: -45%;
+    margin-top: -48%;
     margin-left: 40%;
     
 
   }
+
+  #apppic1 p{
+
+    
+    position: relative;
+    color: white;
+    font-size: 150%;
+    margin-top: -1%;
+    margin-left: 37%;
+    margin-right: 5%;
+    border: 5px  #222A35 solid;
+    padding: 1%;
+    background-color: rgba(211, 211, 211, .2);
+
+
+
+  }
+
+
 
   #button2{
     /*position: absolute;
