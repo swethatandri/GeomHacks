@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title> Resources </title>
+    <title>Resources</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -10,74 +10,61 @@
 
 </video>
 
+
 <body>
     <header>
         <p>
             <span class="covidmity">COVIDMITY</span>
             <span class="nav">
                 <a href="home.html">Home</a>
-       
                 <a href="resources.html">Covid Resources Guide</a>
-              
+                <a href="app.html">Check Out Our App</a>
             </span>
             
         </p>
     </header>
 
+	
     <h1 id="header">Covid Resources Guide </h1>
 
 
+<div id = "resources-left">
+	<p id = "familyp">  How many members are in your family? </p> 
+	<input type="text" id="textbox" name="fname"> <br> <br>
+	<button onclick = "data()" id = "button2" type = "submit"> Submit here </button> 
+</div>
+
+<div id = "resources-table">
+
+	<table>
+	<tr>
+		<th> <p class = "item"> Item </p> </th>
+		<th> <p class = "item"> Amount </p> </th>
+	</tr>
+
+	<tr>
+		<td> <p class = "item"> Milk </p> </td>
+		<td>  <p id = "milk"> Amount </p> </td>
+	</tr>
+
+	<tr>
+		<td> <p class = "item"> Masks</p> </td>
+		<td> <p id = "mask"> Amount </p> </td>
+	</tr>
+
+	<tr>
+		<td><p class = "item"> Liquid Soap</p> </td>
+		<td> <p id = "soap"> Amount </p> </td>
+	</tr>
+
+	</table>
+
+</div>
 
 
-    <div id = "resources">
-
-
-     <p id = "familyp">  How many members are in your family? </p>  
-
-     <p class = "item"> Amount </p>
-
-     <p class = "item"> Item </p>
-
-     <div class = "clear"> </div>
-
-     <p id = "milk"> Amount </p>
-
-     <p class = "item"> Milk </p>
-
-     <div class = "clear"> </div>
-   
-
-     <p id = "mask"> Amount </p>
-
-     <p class = "item"> Masks </p>
-
-
-     <div class = "clear"> </div>
-
-
-     <p id = "soap"> Amount </p>
-
-     <p class = "item"> Liquid Soap</p>
-
-    </div>
-
-
-
-
- 
-
-    <br>
-
-
-
-    
-   
-
-    <input type="text" id="textbox" name="fname"> <br> <br>
-
-    <button onclick = "data()" id = "button2" type = "submit"> Submit here </button>
-
-
+    <footer>
+        <p>GeomHacks 2020 COVIDMITY</p>
+    </footer>
 
 
     <script>
@@ -105,6 +92,9 @@
 
     </script>
 
+
 </body>
 
 </html>
+
+
