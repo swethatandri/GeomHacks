@@ -30,8 +30,9 @@ header{
 
 .logo{
     position: fixed;
-   margin-left: 25%;
-   margin-top: -1.5%;
+    left: 0;
+   margin-left: 8%;
+   margin-top: 2%;
    
 }
 
@@ -49,7 +50,7 @@ header{
 
 .nav a{
     /* background-color: red; */
-    margin-left: 7%;
+    margin-left: 4%;
     color: white;
     text-decoration: none;
 }
@@ -128,7 +129,7 @@ h2{
 
     margin-left: 1.75%;
 
-    margin-top: 0%;
+    margin-top: 1.5%;
     bottom: 0;
 
     margin-right:1.75%;
@@ -165,13 +166,15 @@ h2{
 
     position: relative;
     color: white;
-    border:  3px white solid;
+    background-color: rgba(211, 211, 211, .4);
     font-size: 250%;
 
-    margin-left: 20% ;
-    margin-right: 20%;
+    margin-left: 35% ;
+    margin-right: 14%;
+    border: 3px white double;
     margin-top: 4%;
-    padding: 2%
+    padding: 2%;
+   
 }
 
 #randomimg{
@@ -266,6 +269,18 @@ a{
       width: inherit;
   }
 
+  #apppic1 h1{
+
+    width: inherit;
+    position: relative;
+    color: white;
+    font-size: 200%;
+    margin-top: -45%;
+    margin-left: 40%;
+    
+
+  }
+
   #button2{
     /*position: absolute;
     background-color: #222A35;
@@ -343,7 +358,7 @@ a{
       top: 45%;
       padding: 3% 5%;
       border-radius: 3em;
-      width: 30%
+      width: 30%;
       display: inline-block;
       text-align: center;
   }
