@@ -6,7 +6,7 @@
 </head>
 
 <video autoplay muted loop id="myVideo">
-
+    
     <source src="abstract_line3.mp4" type="video/mp4">
 
 </video>
@@ -26,17 +26,17 @@
     </header>
 
  
-     <h1 id = "header"> Self-Care During Covid-19 </h1>
+     <h1 id = "header"> Talking About Covid-19 To A Young Child </h1>
      <h2 id = "header2"> Quoted directly from <a id = "randlinks" href = "https://www.helpguide.org/articles/parenting-family/parenting-during-coronavirus.htm" target="_blank" > HelpGuide.org </a></h2>
-
+     
      <div id="btn-area">
         <button id = "button" onclick= "randomize()">  Click Here for Another Tip </button>
-     </div>
+    </div>
 
-     <div id = "tips-area">
-        <p id = "randomp"> </p>
+    <div id = "tips-area">
+     <p id = "randomp"> </p>
 
-        <img src = "#" id= "randomimg" > 
+     <img src = "#" id= "randomimg" > 
      </div>
 
 
@@ -44,16 +44,18 @@
 
     <script> 
 
-    var tip1 = '"Spend some time alone. With your family confined under one roof, your previous outlets for personal time are probably gone. Make it a point to carve out some space for yourself, whether that’s taking a walk alone, practicing a relaxation technique, or winding down with a bubble bath."';
-    var tip2 = '"Prioritize your wellbeing. The lack of structure at the moment can make it easy to fall into coping mechanisms that can turn into bad habits, such as overeating, drinking too much, or abusing drugs. Added stress and uncertainty can also make it difficult to sleep at night. Try to prioritize your wellbeing as much as possible. This means eating healthy, getting in some exercise, and sticking to a regular sleep schedule."';
-    var tip3 = "Don’t set yourself up to fail. Be realistic about what you can achieve. Do the best you can but try to keep some perspective. If you can’t bring yourself to set up that virtual museum tour or the kids end up eating cookies for dinner one night, don’t despair. There’s no guide to this, and everyone is taking it day by day. Try not to fall into the comparison trap, either. Each family has its own set of concerns and priorities.";
-    var tip4 = '"Reconnect with old passions. Think about hobbies you enjoy but rarely have time for. Maybe there’s a skill you’d like to learn, like knitting or making jewelry, but haven’t gotten around to yet. If you can carve out the time and energy, engaging in activities you love can help ease stress and add joy to your day."';
+    var tip1 = '"Talk at an age-appropriate level. If your child is young, don’t volunteer too much information, as this could cause their imagination to run wild. Instead, try to answer any questions they might have. It’s okay not to know everything; if your child is older, help them find accurate information from the Centers for Disease Control and Prevention (CDC) or World Health Organization (WHO)."';
+    var tip2= '"Focus on what you can control. Talking to your kids about the safety precautions you’re taking can empower them. Remind them to wash their hands for 20 seconds (the time it takes to sing “Happy Birthday” twice) when they come in from outside, before they eat, after blowing their nose, coughing, sneezing, or going to the bathroom. Explain how reducing close contact with other people keeps the virus from spreading, therefore it’s important to stay at home as much as possible."';
+    var tip3 = '"Offer reassurance and honesty. If your kids are afraid they’ll get the virus, reassure them that children don’t seem to get as sick as adults. Watch the news with older kids so you can explain what they’re hearing and put things into context."';
+    var tip4 = '"Keep lines of communication open. To keep fear from building up, let your kids know that you’ll keep them updated as you learn more information. You can also use this as a teaching opportunity, explaining how their immune system fights disease."';
+   
 
 
-    var img1 = "alone.png";
-    var img2 = "relax.png";
-    var img3 = "success.png";
-    var img4 = "laugh.png";
+    var img1 = "child.png";
+    var img2 = "control.png";
+    var img3 = "truth.png";
+    var img4 = "contact.png";
+   
 
     var imglist = [img1, img2, img3, img4];
 
@@ -61,7 +63,7 @@
     var randomlist = [tip1, tip2, tip3, tip4];
     
 
-    var j = Math.floor((Math.random() * 4));
+    var j = Math.floor((Math.random() * 3));
     var random1 = randomlist[j];
     var randomimg = imglist[j];
     document.getElementById("randomp").innerHTML = random1;
@@ -74,7 +76,7 @@
 
     function randomize()
     {
-         j = Math.floor((Math.random() * 4));
+         j = Math.floor((Math.random() * 3));
          random1 = randomlist[j];
          randomimg = imglist[j];
         document.getElementById("randomp").innerHTML = random1;
@@ -89,4 +91,3 @@
 
 
 </body>
-</html>
