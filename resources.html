@@ -16,7 +16,7 @@
         <p>
             <span class="covidmity">COVIDMITY</span>
             <span class="nav">
-                <a href="home.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="resources.html">Covid Resources Guide</a>
                 <a href="app.html">Check Out Our App</a>
             </span>
@@ -25,7 +25,7 @@
     </header>
 
 	
-    <h1 id="header">Covid Resources Guide </h1>
+    <h1 id="header">Covid Weekly Resources Guide </h1>
 
 
 <div id = "resources-left">
@@ -43,7 +43,7 @@
 	</tr>
 
 	<tr>
-		<td> <p class = "item"> Milk </p> </td>
+		<td> <p class = "item"> Milk Gallons</p> </td>
 		<td>  <p id = "milk"> Amount </p> </td>
 	</tr>
 
@@ -53,7 +53,7 @@
 	</tr>
 
 	<tr>
-		<td><p class = "item"> Liquid Soap</p> </td>
+		<td><p class = "item"> Liquid Soap Containers</p> </td>
 		<td> <p id = "soap"> Amount </p> </td>
 	</tr>
 
@@ -76,9 +76,25 @@
 
             var x = Number(document.getElementById("textbox").value);
 
-            document.getElementById("milk").innerHTML = Number(x);
-            document.getElementById("mask").innerHTML = Number(x) * 2;
-            document.getElementById("soap").innerHTML = Number(x)/4;
+            if(x<0){
+
+                document.getElementById("milk").innerHTML = "Enter a number 0 or greater!";
+                document.getElementById("mask").innerHTML = "Enter a number 0 or greater!";
+                document.getElementById("soap").innerHTML = "Enter a number 0 or greater!";
+            
+
+
+            }
+
+            else{
+
+                document.getElementById("milk").innerHTML = Number(x);
+                document.getElementById("mask").innerHTML = Number(x) * 2 * 7;
+                document.getElementById("soap").innerHTML = Number(x)/4;
+
+            }
+
+           
             
 
 

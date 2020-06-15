@@ -183,6 +183,7 @@ h2{
     width: 20%;
     right: 12%;
     height: 30%;
+    margin-top: 2.5%;
     border: 3px black double;
 }
  
@@ -411,6 +412,15 @@ a{
   table tr{
     width: 40%;
     background-color: #333F50;
+
+  }
+
+  .kivy{
+
+    position: relative;
+    width: 30%;
+    margin-left: 50%;
+
 
   }
 
