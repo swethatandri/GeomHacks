@@ -31,8 +31,9 @@ header{
 
 .logo{
     position: fixed;
-   margin-left: 25%;
-   margin-top: -1.5%;
+    left: 0;
+   margin-left: 6%;
+   margin-top: 2%;
    
 }
 
@@ -50,7 +51,7 @@ header{
 
 .nav a{
     /* background-color: red; */
-    margin-left: 7%;
+    margin-left: 3%;
     color: white;
     text-decoration: none;
 }
@@ -166,14 +167,18 @@ h2{
 
     position: relative;
     color: white;
-    border:  3px white solid;
+    background-color: rgba(211, 211, 211, .3);
     font-size: 250%;
 
-    margin-left: 20% ;
-    margin-right: 20%;
+    margin-left: 35% ;
+    margin-right: 14%;
+    border: 3px white double;
     margin-top: 4%;
-    padding: 2%
+    padding: 2%;
+    margin-bottom: 4%;
+   
 }
+
 
 #randomimg{
     position: absolute;
@@ -345,7 +350,7 @@ a{
       top: 45%;
       padding: 3% 5%;
       border-radius: 3em;
-      width: 30%
+      width: 30%;
       display: inline-block;
       text-align: center;
   }
