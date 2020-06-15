@@ -156,7 +156,7 @@ h2{
     margin-top: 2%;
     
     margin-left: 2%;
-    font-size: 150%;
+    font-size: 140%;
     float: left;
     width: 50%;
     padding: 2%;
@@ -175,7 +175,7 @@ h2{
     border: 3px white double;
     margin-top: 4%;
     padding: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
    
 }
 
@@ -183,6 +183,7 @@ h2{
 #randomimg{
     position: absolute;
     float: right;
+    margin-top: 1.5%;
     width: 20%;
     right: 12%;
     height: 30%;
@@ -249,6 +250,7 @@ a{
   }
 
   footer{
+      
       position: absolute;
       top: 90%;
       color: white;
@@ -257,6 +259,11 @@ a{
       text-align: center;
       width: 100%;
       letter-spacing: 5px;
+  }
+
+  footer a{
+      color: white;
+      text-decoration: underline;
   }
 
   #tips-area{
