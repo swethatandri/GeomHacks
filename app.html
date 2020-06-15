@@ -8,6 +8,21 @@
             position: fixed;
             top: 0%;
         }
+
+        h1{
+            color: white;
+            z-index: 2;
+            margin-top: 25%;
+            text-transform: uppercase;
+            background-color: yellow;
+            border-radius: 5em;
+            padding: 2% 4%;
+            font-size: 25px;
+            width: 40%;
+            text-align: center;
+        }
+ 
+
     </style>
 </head>
 
@@ -22,21 +37,23 @@
             </span>
         </p>
     </header>
-        
+ 
     <div id="apppic1">
         <img src="app1.png">
-        <h1> The Covidmity News and Financial App! </h1>
-
-        <p>  We have a Kivy web app that pulls the latest information about different stocks and markets using Robinhood’s news channel. The information automatically updates to a local file once the CoronaStocks button is clicked. Additionally, the web app has a CoronaNews button that pulls the latest data with the query ‘coronavirus updates’ and updates the user’s with the top news headlines and there corresponding links from across the web on two local files. The web app is meant to sit on your desktop and be clicked whenever you want the latest scoop! </p>
-
-        <video autoplay controls class = "kivy">
-    
-            <source src="GeomHacksVideo (1) (1).mp4" type="video/mp4">
-        
-        </video>
-        
     </div>
 
+    <div id = "mainapp">
+
+            <div id="parakivy">
+                <p>  We have a Kivy web app that pulls the latest information about different stocks and markets using Robinhood’s news channel. The information automatically updates to a local file once the CoronaStocks button is clicked. Additionally, the web app has a CoronaNews button that pulls the latest data with the query ‘coronavirus updates’ and updates the user’s with the top news headlines and there corresponding links from across the web on two local files. The web app is meant to sit on your desktop and be clicked whenever you want the latest scoop! </p>
+            </div>
+ 
+            <video autoplay controls class = "kivy">
+        
+                <source src="GeomHacksVideo (1) (1).mp4" type="video/mp4">
+            
+            </video>    
+    </div>
     
        
 </body>
